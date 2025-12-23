@@ -1,12 +1,14 @@
 :root {
-  --color-primary: #006cbb;
+  --color-primary: #7319af;
+  --color-primary-dark: #5a128a;
 
-  --color-white: #fff;
-  --color-gray: #dfdfdf;
-  --color-black: #000;
+  --color-white: #ffffff;
+  --color-gray-light: #eeeeee;
+  --color-gray: #cccccc;
+  --color-gray-dark: #777777;
+  --color-black: #000000;
 
-  --color-success: #01bd78;
-  --color-error: #d40019;
+  --color-error: #af1919;
 }
 
 * {
@@ -21,20 +23,21 @@
 @font-face {
   font-family: 'base';
   font-weight: 400;
-  src: url('/fonts/400.woff2') format('woff2');
+  src: url('../../public/fonts/Roboto-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'base';
   font-weight: 700;
-  src: url('/fonts/700.woff2') format('woff2');
+  src: url('../../public/fonts/Roboto-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
 body {
   padding: 0;
   margin: 0;
+  font-family: 'base', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
